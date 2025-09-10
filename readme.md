@@ -1,6 +1,16 @@
 # Knowledge Graph Triplet Extraction and Visualization
 
-This repository contains a pipeline for extracting knowledge-graph-ready triplets from text, processing them, and visualizing the resulting knowledge graph. The project leverages a combination of natural language processing (NLP), graph processing, and visualization tools to build and query a knowledge graph.
+This repository contains a pipeline for extracting knowledge-graph-ready triplets from text, processing them, and visualizing the resulting knowledge graph.
+
+The project leverages:
+
+Natural Language Processing (NLP) for text understanding and triplet extraction.
+
+Graph processing techniques to structure and enrich the extracted information.
+
+Visualization tools to interactively explore and query the resulting knowledge graph.
+
+All triplet extraction is powered by a local LLM: Gemma 3 (4b-it-qat), ensuring efficient and private processing without relying on external APIs.
 
 ## Features
 
